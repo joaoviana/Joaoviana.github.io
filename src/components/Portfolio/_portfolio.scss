@@ -65,7 +65,10 @@
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 
     @media (max-width:$breakpoint-s) {
-       font-size: $s-size*0.8;
+       font-size: $s-size;
+       flex-direction: row;
+       margin: $m-size $l-size;
+       flex-basis: 70%;
     }
 }
 
@@ -92,8 +95,8 @@
         height:2.5rem;
     } 
     @media(max-width: $breakpoint-s) {
-        width: 2rem;
-        height:2rem;
+        width: 3rem;
+        height:3rem;
     } 
 }
 

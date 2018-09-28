@@ -40,7 +40,7 @@ const PortfolioList = () => (
                         <a  className = "portfolio-item--link__click" href='https://github.com/Joaoviana/react-struggling-student-expenses/'>Src</a>
                     </div>
                     <div>
-                        <a  className = "portfolio-item--link__click" href='https://struggling-student-expenses.herokuapp.com'>Live</a>
+                        <a  className = "portfolio-item--link__click" href='https://struggling-student-expenses.herokuapp.com'>View</a>
                     </div>
                 </div>
 
@@ -70,7 +70,7 @@ const PortfolioList = () => (
                         <a  className = "portfolio-item--link__click" href='https://github.com/Joaoviana/react-indecision/'>Src</a>
                     </div>
                     <div>
-                        <a  className = "portfolio-item--link__click" href='https://struggling-student-indecision.herokuapp.com/'>Live</a>
+                        <a  className = "portfolio-item--link__click" href='https://struggling-student-indecision.herokuapp.com/'>View</a>
                     </div>
                 </div>
            </div>
@@ -136,7 +136,7 @@ const PortfolioList = () => (
                         <a  className = "portfolio-item--link__click" href='https://github.com/Joaoviana/node-chat-app/'>Src</a>
                     </div>
                     <div>
-                        <a  className = "portfolio-item--link__click" href='https://struggling-student-chat.herokuapp.com/'>Live</a>
+                        <a  className = "portfolio-item--link__click" href='https://struggling-student-chat.herokuapp.com/'>View</a>
                     </div>
                 </div>
 
