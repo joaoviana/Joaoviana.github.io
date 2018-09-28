@@ -5,14 +5,22 @@
 }
 
 .about-title  {
-    color: white;
+    color: $mil-black;
     text-align: center;
     font-size: $l-size * 2;
     margin-top: $l-size*2;
-    margin-bottom: $xl-size * 3;
+    margin-bottom: $xl-size ;
     letter-spacing: 0.5rem;
+    line-height: 4rem;
 }
 
 .about-description {
-    color: white;
+    color: $mil-black;
+    line-height: 4rem;
+}
+
+.text-deco {
+    background: $mil-black;
+    color:rgb(236, 236, 236);
+    padding: 0.2rem;
 }

@@ -1,12 +1,27 @@
 import React from 'react';
+import Emoji from '../../components/Emoji/index';
 
 const AboutPage = () => (
     <div className="flex-container">
-        <div className = "about-container">
+        <div className = "about-container portfolio-container--item">
             <h1 className = "about-title"> About me</h1>
             <p className = "about-description"> 
-            O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
-            
+           
+            I like to develop apps with <span className="text-deco">JavaScript</span>.
+            <br/>
+
+            <span className="text-deco"> And everything web   </span><span><Emoji symbol="🔮"/></span>
+            <br/>
+
+            Keeping up with this fast-paced community is definitely one of my greatest passions  <span><Emoji symbol="❤️"/></span>
+            <br/>
+            I built this portfolio website with React and no other fancy framework. Not that I mind working with fancy frameworks. I do love them.
+            <br/>
+            <span className="text-deco">React, Redux, Node and Firebase</span> have been the main frameworks/tools that I have been working with lately.
+            <br/>
+            I do like making the web <span className="text-deco">simple and minimalistic</span>. 
+            <br/>
+            Oh, also on my spare time I am a music computer, working with Max and augmenting acoustic instruments. 
             </p>
         </div>
     </div>
