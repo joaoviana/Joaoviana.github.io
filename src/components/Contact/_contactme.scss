@@ -1,0 +1,77 @@
+
+.email-link {
+    text-decoration: none;
+    text-align: center;
+    background: none;
+    border: 3px solid;
+    border-radius: 3px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0rem 3rem;
+    font-size: $xl-size;
+    padding: $s-size $xl-size;
+    transition: color 1s;
+
+    $color: #ffffff;
+    color: $color;
+    
+    &:hover {
+      animation: zigzag 1s linear infinite;
+      background: linear-gradient(135deg, rgba($color,0.25) 0.25em, transparent 0.25em) -0.5em 0
+                , linear-gradient(225deg, rgba($color,0.25) 0.25em, transparent 0.25em) -0.5em 0
+                , linear-gradient(315deg, rgba($color,0.25) 0.25em, transparent 0.25em) 0 0
+                , linear-gradient(45deg, rgba($color,0.25) 0.25em, transparent 0.25em) 0 0;
+      background-size: 0.75em 0.75em;
+      color: adjust-hue($color,180);
+    }
+  }
+
+
+  @keyframes zigzag {
+    100% {
+      background-position: 1em 0, 1em 0, -0.75em 0 , -0.75em 0;
+    }
+  }
+
+.contact-button{
+    text-decoration: none;
+    text-align: center;
+    background: none;
+    border: 2px solid;
+    border-radius: 3px;
+    margin-top: 3rem;
+    width: 100%;
+    font-size: $m-size;
+    padding: $m-size;
+    transition: color 0.5s;
+
+    font-style: italic;
+
+    $color: white;
+    $color2: darken($mil-coral, 10%);
+    color: $color;
+    
+    &:hover {
+      animation: blinds 0.75s linear forwards;
+      background: linear-gradient(0deg, $color 25%, transparent 25%) 0 0 / 0.5em 0.5em
+                , linear-gradient(0deg, $color2 50%, transparent 50%) 0 0 / 1em 1em;
+      color: adjust-hue($color,180);
+    }
+  }
+  
+  @keyframes blinds {
+    100% {
+      background-position: 0 0, 0 -3em;
+      background-size: 0 0, 1em 6em;
+    }
+  }
+
+.contact--button__copied {
+    margin-top:1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: $font-size-large;
+    color: rgb(255, 255, 255);
+}
+

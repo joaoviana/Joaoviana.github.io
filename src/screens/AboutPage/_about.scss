@@ -1,0 +1,18 @@
+.about-container {
+    width: 50%;
+    margin-top: $l-size*4;
+    margin-bottom: $l-size * 3;
+}
+
+.about-title  {
+    color: white;
+    text-align: center;
+    font-size: $l-size * 2;
+    margin-top: $l-size*2;
+    margin-bottom: $xl-size * 3;
+    letter-spacing: 0.5rem;
+}
+
+.about-description {
+    color: white;
+}

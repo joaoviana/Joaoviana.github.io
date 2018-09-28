@@ -1,0 +1,50 @@
+.Nav {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    position: fixed;
+    top: $xl-size;
+    width: 10%;
+    background: none;
+    z-index: 2;
+    border-radius: 3px;
+
+    @media(max-width:$breakpoint-m) {
+        flex-direction: row;
+        top: 0;
+        width: 100%;
+        
+    }
+}
+
+.Nav--item {
+    background: none;
+    border:5px solid white;
+    text-decoration: none;
+    padding: $m-size $l-size;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-size: $s-size;
+    word-break: break-all;
+
+    color: white;
+    &:hover {
+        color: $mil-black;
+    }
+    &:focus {
+        outline: none;
+    }
+    @media(max-width:$breakpoint-m) {
+        flex-direction: row;
+        top: 0;
+        width: 100%;
+        background: $mil-black;
+        border: none;
+        margin:0;
+        text-align: center;
+        &:hover {
+            color: #c2c2c2;
+        }
+    }
+}

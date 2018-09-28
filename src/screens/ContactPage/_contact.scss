@@ -1,0 +1,15 @@
+.contact-container {
+    margin-bottom: $l-size;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: $xl-size;
+
+}
+
+.contact-title {
+    font-size: $l-size * 2;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.8rem;
+}

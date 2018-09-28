@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; // working with base 10
+    width:100vw; 
+    height:100vh; 
+    background: $mil-blue;
+}
+
+body {
+    color:$dark-grey;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: $m-size;
+    line-height: 1.3;
+}
+
+button:disabled{
+    cursor: default
+}
+
+.is-active {
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin-top: $xl-size*2;
+    margin-bottom: $xl-size*4;
+}

@@ -1,0 +1,20 @@
+.footer {
+    color:white;
+    text-align: end;
+    font-size: $font-size-small;
+    margin-top: $m-size;
+    margin-bottom: $l-size;
+    padding-right: $m-size;
+    letter-spacing: 0.6rem;
+
+    @media (max-width:$breakpoint-l) {
+        font-size: $font-size-small*0.8;
+        letter-spacing: 0.4rem;
+    }
+
+    @media (max-width:$breakpoint-s) {
+        font-size: $font-size-small*0.8;
+        text-align: center;
+        padding:0;
+    }
+}
