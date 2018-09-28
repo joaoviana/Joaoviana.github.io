@@ -1,10 +1,14 @@
+.portfolio-page {
+    padding-top: $xl-size;
+}
+
 .portfolio-title {
     font-size: $l-size * 2;
     text-align: center;
     color: white;
     letter-spacing: 0.8rem;
     margin-bottom: $xl-size *2;
-    margin-bottom: $xl-size ;
+    margin-top: $xl-size ;
 }
 
 .portfolio-container {

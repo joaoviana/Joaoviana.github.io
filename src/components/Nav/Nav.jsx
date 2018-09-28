@@ -33,7 +33,7 @@ class  Nav extends React.Component{
         return (
             <div className="Nav">
                 <button className= "Nav--item" onClick={(e) => this.scrollToPage('.about-container')}>About</button>
-                <button className= "Nav--item" onClick={(e) => this.scrollToPage('.portfolio-title')}>Portfolio</button>
+                <button className= "Nav--item" onClick={(e) => this.scrollToPage('.portfolio-page')}>Portfolio</button>
                 <button className= "Nav--item" onClick={(e) => this.scrollToPage('.contact-container')}>Contact</button>
             </div>
         );
