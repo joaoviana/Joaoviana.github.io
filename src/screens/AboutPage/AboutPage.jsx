@@ -18,28 +18,34 @@ const AboutPage = () => (
         </div>
 
         <div className="highlights-container">
-            <div className="container-text-deco__highlight portfolio-container--item">
+            <div className="container-text-deco__highlight box a">
             <h1>I admire</h1>
             <hr/>
             <p>Products that are solving world problems one line of code at a time. Impact is a solid motivator to keep up with this fast paced technology driven world. </p>
             </div>
 
-            <div  className="container-text-deco__highlight portfolio-container--item">
-                <h1>Pet Peeves</h1>
-                <hr/>
-                <p>Unscalable pieces of code & over engineered products that hamper the eventual growth of a tech product.</p>
+            <div  className="container-text-deco__highlight box b">
+            <h1>Pet Peeves</h1>
+            <hr/>
+            <p>Unscalable pieces of code & over engineered products that hamper the eventual growth of a tech product.</p>
+
+            
             </div>
 
-            <div  className="container-text-deco__highlight portfolio-container--item">
+            <div  className="container-text-deco__highlight box c">
                 <h1>Latest Crush</h1>
                 <hr/>
-                <p>Redux, Node & Firebase</p>
+                <p>Redux</p>
+                <p>Node</p>
+                <p>Firebase</p>
             </div>
 
-            <div  className="container-text-deco__highlight portfolio-container--item">
-                <h1>Educational background</h1>
-                <hr/>
-                <p> I study music computing and creative coding was how I put my foot between the door of this magical binary world.</p>
+            <div  className="container-text-deco__highlight box d">
+           
+            <h1>Educational background</h1>
+            <hr/>
+            <p> I study music computing and creative coding was how I put my foot between the door of this magical binary world.</p>    
+            
             </div>
         </div>
         

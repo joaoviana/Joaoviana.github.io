@@ -4,9 +4,7 @@ const Intro = () => (
     <div className="intro-container">
     
     <div className="glitch-container">
-        <p className="glitch-container--item">João Viana</p>
-        <p className="glitch-container--item">João Viana</p>
-        <p className="glitch-container--item">João Viana</p>
+        <p className="glitch-container--item">João Viana</p><p className="glitch-container--item">João Viana</p><p className="glitch-container--item">João Viana</p>
     </div>
         <h2 className = "intro-container--subtitle"> Web Developer | Creative Coder</h2>
     </div>
