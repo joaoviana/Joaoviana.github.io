@@ -1,7 +1,21 @@
 .about-container {
-    width: 50%;
+
     margin-top: $l-size*4;
     margin-bottom: $l-size * 3;
+    width:60%;
+    padding:$s-size;
+
+    @media(max-width: $breakpoint-l) {
+        padding: $l-size;
+        width: 70%;
+    }
+
+    @media(max-width: $breakpoint-m) {
+        width: 75%;
+    }
+    @media(max-width: $breakpoint-s) {
+        width: 80%;
+    }
 }
 
 .about-title  {
@@ -23,4 +37,28 @@
     background: $mil-black;
     color:rgb(236, 236, 236);
     padding: 0.2rem;
+}
+
+.text-deco__highlight {
+    font-weight: bold;
+}
+
+.container-text-deco__highlight {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 30%;
+    margin:2rem 5rem;
+    padding: 2rem;
+    font-size: $s-size;
+
+    h1 {
+        color:$mil-blue;
+    }
+}
+
+.highlights-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
