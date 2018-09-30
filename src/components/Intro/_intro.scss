@@ -128,42 +128,54 @@
     }
 }
 
+
   .glitch-container {
     width: 100vw;
     margin: 35vh auto;
     @media(max-width:$breakpoint-s ) {
-        margin-top: 10rem;
+        margin-top: 20rem;
     }
 
-  p {
-    text-align: center;
-    color: #fff;
-    font-size: 10rem;
-    letter-spacing: 2rem;
-    font-family: 'VT323', monospace;
-    line-height: 0;
-    /*Create overlap*/
-    
-    margin: 0;
-    /*Animation*/
-    
-    animation: glitch1 2.5s infinite;
+    @media(max-width:$breakpoint-xs ) {
+      margin-top: 15rem;
+  }
 
-    @media (max-width:$breakpoint-s){
-        letter-spacing: 1rem;
-        margin-left:0;
-        margin-right: 0;
+    p {
+      text-align: center;
+      color: #fff;
+      font-size: 10rem;
+      letter-spacing: 2rem;
+      font-family: 'VT323', monospace;
+      line-height: 0;
+      /*Create overlap*/
+      
+      margin: 0;
+      /*Animation*/
+      
+      animation: glitch1 2.5s infinite;
+
+      
+
+      @media (max-width:$breakpoint-s){
+          letter-spacing: 0.5rem;
+          margin-left:0;
+          margin-right: 0;
+          width:100vw;
+          font-size: 5rem;
+          text-align: center;
+      }
+
+      @media (max-width:$breakpoint-m){
+          letter-spacing: 1rem;
+          width:100vw;
+          font-size: 5rem;
+      }
+
+      @media (max-width:$breakpoint-xs){
+        letter-spacing: 0.7rem;
         width:100vw;
         font-size: 5rem;
         text-align: center;
-    }
-
-    @media (max-width:$breakpoint-m){
-        letter-spacing: 1rem;
-        margin-left:0;
-        margin-right: 0;
-        width:100vw;
-        font-size: 7rem;
     }
 
     

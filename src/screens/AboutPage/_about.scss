@@ -100,6 +100,13 @@
         grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
         font-size: $s-size*0.8;
     }
+
+    @media(max-width: $breakpoint-s) {
+        grid-gap: 0.2rem;
+        grid-template-columns: [col1-start] 7rem[col2-start] 10rem  [col3-start] 12rem [col3-end];
+        grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+        font-size: $s-size*0.8;
+    }
 }
 
 .box {
@@ -107,8 +114,8 @@
     color: $mil-black;
     border-radius: 5px;
     padding: 1rem;
-    padding-top: 2rem;
-    line-height: 3rem;
+    padding-top: 1.3rem;
+    line-height: 2rem;
     &:hover {
         background-color: $mil-blue;
     }

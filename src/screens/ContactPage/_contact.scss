@@ -12,6 +12,20 @@
     text-align: center;
     color: white;
     letter-spacing: 0.8rem;
+
+    @media(max-width: $breakpoint-l) {
+        font-size: $l-size*1.7;
+        letter-spacing: 0.5rem;
+    }
+    @media(max-width: $breakpoint-m) {
+        font-size: $l-size*1.3;
+        letter-spacing: 0.5rem;
+    }
+
+    @media(max-width: $breakpoint-s) {
+        font-size: $l-size*1.3;
+        letter-spacing: 0.2rem;
+    }
 }
 
 .contact-header  {
@@ -33,8 +47,8 @@
 }
 
 .text-shadow-pop {
-	-webkit-animation: text-shadow-pop-tr 1s both infinite;
-	        animation: text-shadow-pop-tr 1s both infinite;
+	-webkit-animation: text-shadow-pop-tr 2s both infinite;
+	        animation: text-shadow-pop-tr 2s both infinite;
 }
 
  @-webkit-keyframes text-shadow-pop-tr {
