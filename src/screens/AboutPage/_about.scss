@@ -75,36 +75,42 @@
             font-size: $s-size;
         }
     }
-
-    
-
 }
 
 .highlights-container {
+    display: -ms-grid;
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: [col1-start] 13rem[col2-start] 17rem  [col3-start] 20rem [col3-end];
-    grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+    -ms-grid-columns: [col1-start] 13rem[col2-start] 17rem  [col3-start] 20rem [col3-end];
+        grid-template-columns: [col1-start] 13rem[col2-start] 17rem  [col3-start] 20rem [col3-end];
+    -ms-grid-rows: [row1-start] auto [row2-start] auto [row2-end];
+        grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
     color: #444;
 
     @media(max-width: $breakpoint-l) {
         grid-gap: 1rem;
-        grid-template-columns: [col1-start] 11rem[col2-start] 15rem  [col3-start] 17rem [col3-end];
-        grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+        -ms-grid-columns: [col1-start] 11rem[col2-start] 15rem  [col3-start] 17rem [col3-end];
+            grid-template-columns: [col1-start] 11rem[col2-start] 15rem  [col3-start] 17rem [col3-end];
+        -ms-grid-rows: [row1-start] auto [row2-start] auto [row2-end];
+            grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
         font-size: $s-size;
     }
 
     @media(max-width: $breakpoint-m) {
         grid-gap: 1rem;
-        grid-template-columns: [col1-start] 9rem[col2-start] 11rem  [col3-start] 14rem [col3-end];
-        grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+        -ms-grid-columns: [col1-start] 9rem[col2-start] 11rem  [col3-start] 14rem [col3-end];
+            grid-template-columns: [col1-start] 9rem[col2-start] 11rem  [col3-start] 14rem [col3-end];
+        -ms-grid-rows: [row1-start] auto [row2-start] auto [row2-end];
+            grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
         font-size: $s-size*0.8;
     }
 
     @media(max-width: $breakpoint-s) {
         grid-gap: 0.2rem;
-        grid-template-columns: [col1-start] 7rem[col2-start] 10rem  [col3-start] 12rem [col3-end];
-        grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+        -ms-grid-columns: [col1-start] 7rem[col2-start] 10rem  [col3-start] 12rem [col3-end];
+            grid-template-columns: [col1-start] 7rem[col2-start] 10rem  [col3-start] 12rem [col3-end];
+        -ms-grid-rows: [row1-start] auto [row2-start] auto [row2-end];
+            grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
         font-size: $s-size*0.8;
     }
 }

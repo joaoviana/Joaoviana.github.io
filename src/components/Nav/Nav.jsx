@@ -1,5 +1,4 @@
 import React from 'react';
-import scrollToComponent from 'react-scroll-to-component';
 import { toElement as scrollToElement } from '../../utils/scrollTo';
 import '../../styles/styles.scss';
 
