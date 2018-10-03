@@ -141,12 +141,13 @@
     width: 100vw;
     margin: 35vh auto;
     @media(max-width:$breakpoint-s ) {
-        margin-top: 20rem;
+        margin-top: 23rem;
         margin-bottom: 13rem;
     }
 
     @media(max-width: $breakpoint-l2) {
-      margin-top: 10rem;
+      margin-top: 15rem;
+      margin-bottom: 15rem;
     }
 
     @media(max-width:$breakpoint-xs ) {
@@ -188,15 +189,15 @@
       }
 
       @media (max-width:$breakpoint-xs){
-        letter-spacing: 0.7rem;
+        letter-spacing: 0rem;
         width:100vw;
-        font-size: 5rem;
+        font-size: 2rem;
         text-align: center;
     }
       @media(max-width: $breakpoint-l2) {
         letter-spacing: 0.7rem;
         width:100vw;
-        font-size: 7rem;
+        font-size: 5rem;
         text-align: center;
       }
 
